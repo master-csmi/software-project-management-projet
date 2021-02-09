@@ -1,4 +1,4 @@
-# Project XT
+# Project XP
 
 ## Group
 
@@ -6,3 +6,4 @@
 - Steve de Rose
 - Quentin Loeb
 - faye mouhamadou
+- Mélissa Untz
