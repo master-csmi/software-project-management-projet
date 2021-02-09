@@ -1,2 +1,9 @@
-# software-project-management-projet
-software-project-management-projet created by GitHub Classroom
+# Project XT
+
+## Group
+
+- Untz Mélissa
+- De Rose Steve
+- Loeb Quentin
+- Mouhamadou Faye
+- Reitzer Marie
