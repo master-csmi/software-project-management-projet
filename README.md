@@ -3,3 +3,4 @@
 ## Group
 
 - Marie Reitzer
+- Steve de Rose
