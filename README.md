@@ -6,4 +6,4 @@
 - Steve de Rose
 - Quentin Loeb
 - faye mouhamadou
-- Mélissa Untz
+- Mélissa Untz 
