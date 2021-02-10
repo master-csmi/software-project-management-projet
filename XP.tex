@@ -2,10 +2,21 @@
 
 \usepackage{enumitem}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+\usepackage[english]{babel}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage[strict, autostyle]{csquotes}
+
+\usepackage[
+    backend=biber,
+    citestyle=numeric,
+    defernumbers,
+    sorting=nyt,
+    maxnames=4,
+    autolang=hyphen]
+    {biblatex}
+\addbibresource{xp.bib}
 
 \usetheme{JuanLesPins}
 
@@ -22,6 +33,5 @@
 \include{Quentin}
 \include{Mouhamadou}
 
-\bibliographystyle{unsrt}
-\bibliography{xp} 
+\printbibliography[heading=none]
 \end{document}
