@@ -1,29 +1,33 @@
-\documentclass{beamer}
+\documentclass[aspectratio=169]{beamer}
+\usetheme{JuanLesPins}
+\setbeamertemplate{bibliography item}{\insertbiblabel}
 
-\usepackage{enumitem}
 \usepackage[T1]{fontenc}
-\usepackage[english]{babel}
+\usepackage[english,ngerman]{babel}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[strict, autostyle]{csquotes}
 
+\newcommand{\citer}[1]{$^\text{\cite{#1}}$}
+
 \usepackage[
     backend=biber,
-    citestyle=numeric,
-    defernumbers,
+    style=nejm,
     ]
     {biblatex}
 \addbibresource{xp.bib}
-
-\usetheme{JuanLesPins}
 
 \title{Extreme Programming}
 \author{Marie Reitzer \and Mélissa Untz \and Quentin Loeb \and Steve de Rose \and Mouhamadou Faye}
 \date{}
 
 \begin{document}
-\maketitle
+
+\nocite{*}
+\begin{frame}
+    \maketitle
+\end{frame}
 
 \include{Steve}
 \include{Marie}
@@ -31,5 +35,5 @@
 \include{Quentin}
 \include{Mouhamadou}
 
-\printbibliography[title={Bibliography}]
+\printbibliography
 \end{document}
