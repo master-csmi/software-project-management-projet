@@ -9,4 +9,4 @@
 - Mélissa Untz 
 
 ## Final presentation
-[PDF Link] {https://github.com/master-csmi/software-project-management-projet/blob/main/XP.pdf}
+[PDF Link](https://github.com/master-csmi/software-project-management-projet/blob/main/XP.pdf)
