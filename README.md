@@ -8,6 +8,5 @@
 - faye mouhamadou
 - Mélissa Untz 
 
-
 ## Final presentation
-[PDF Link]
+[PDF Link] {https://github.com/master-csmi/software-project-management-projet/blob/main/XP.pdf}
